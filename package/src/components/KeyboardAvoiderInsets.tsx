@@ -18,7 +18,7 @@ export default function KeyboardAvoiderInsets({
         return {
             height: heightAnimatedValue.value,
         }
-    })
+    }, [])
 
     useKeyboardHandlers({
         showHandler: (e) => {

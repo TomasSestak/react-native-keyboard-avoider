@@ -48,7 +48,7 @@ export default function KeyboardAvoiderScrollView({
 
     const yTranslateStyle = useAnimatedStyle(() => ({
         transform: [{ translateY: yTranslate.value }]
-    }))
+    }), [])
 
     useDerivedValue(() => {
         scrollTo(scrollviewRef, 0, scroll.value, false)

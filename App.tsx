@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+nimateimport React, { useState } from 'react';
 import { Text, TextInput, View, ViewStyle, TouchableOpacity, SafeAreaView, StyleSheet, ScrollView } from 'react-native';
 import KeyboardAvoiderView, { KeyboardAvoidMode } from './package/src/components/KeyboardAvoiderView';
 import KeyboardAvoiderScrollView from './package/src/components/KeyboardAvoiderScrollView';

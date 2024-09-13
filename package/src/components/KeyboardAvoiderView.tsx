@@ -102,7 +102,7 @@ export default function KeyboardAvoiderView({
 
     const animatedStyle = useAnimatedStyle(() => ({
         transform: [{ translateY: -animation.value }],
-    }))
+    }), [])
 
     return (
         <Animated.View
